@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+Here's the updated frontend README with more specific information about our LTI ATS project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LTI ATS Frontend
+
+## Overview
+
+Frontend application for the LTI Applicant Tracking System, implementing a modern UI for candidate profile management and recruitment workflow.
+
+## Project Structure
+
+```
+frontend/
+├── public/            # Static files
+├── src/
+│   ├── components/   # Reusable React components
+│   │   ├── Layout/           # Application layout components
+│   │   └── CandidateProfile/ # Candidate management components
+│   ├── pages/       # Page components
+│   │   └── HomePage.js
+│   └── services/    # API services
+├── package.json
+└── tailwind.config.js
+```
+
+## Features
+
+- Candidate Profile Management
+- Modern UI with Tailwind CSS
+- Responsive Layout
+- Form Validation
+- API Integration with Backend
+
+## Quick Start
+
+1. **Install Dependencies**
+```bash
+npm install
+```
+
+2. **Environment Setup**
+```bash
+cp .env.example .env
+```
+
+3. **Start Development Server**
+```bash
+npm start
+```
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Run development server on port 3000
+- `npm test` - Run test suite
+- `npm run build` - Create production build
 
-### `npm start`
+## Components
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Layout
+- Sidebar navigation
+- Content area
+- Responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### CandidateProfileForm
+- Form validation
+- API integration
+- Success/Error handling
 
-### `npm test`
+## Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 18
+- Tailwind CSS for styling
+- Environment-based configuration
+- Component-based architecture
 
-### `npm run build`
+## Testing
+```bash
+npm test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Building
+```bash
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See CONTRIBUTING.md in the root directory.
 
-### `npm run eject`
+## Documentation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For detailed documentation about:
+- [Project Context](../docs/ProjectContext-RJD.md)
+- User Stories
+- API Documentation
